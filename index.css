@@ -1,0 +1,161 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color:rgb(98, 34, 34);
+}
+.navt{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(116, 50, 6);
+  width: 100%;
+  height: 70px;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+}
+.home{
+  background-color: red;
+  margin-right: 100px;
+  padding: 9px;
+  width: 60px;
+  border-radius: 10%;
+}
+.contact{
+  background-color: red;
+  margin-right:100px;
+  margin-left: 20px;
+  padding: 9px;
+  width: 70px;
+  border-radius: 10%;
+}
+.about{
+  background-color: red;
+  padding: 9px;
+  margin-right: 10px;
+  margin-left: 20px;
+  width: 60px;
+  border-radius: 10%;
+}
+.navli a{
+  color: white;
+  text-decoration:none ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+} 
+li a:hover{
+  color:rgb(55, 44, 77);
+}
+li:hover{
+  background-color: rgb(223, 161, 161);
+}
+.container{
+  background-color: rgb(129, 18, 18);
+}
+.profile{
+  display: flex;
+  height: 80vh;
+  background-color:rgb(75, 29, 29);
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.profile h1{
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile h2{
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile img{
+  margin-top: 10px;
+  border-radius: 50%;
+}
+ .lists{
+  display: flex;
+  align-content: center;
+  justify-content:flex-start;
+  background-color:rgb(75, 29, 29);
+  margin-bottom: 0;
+ }
+ #about{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 500px;
+  background-color:rgb(98, 34, 34);
+    padding: 10px;
+  border-radius: 5%;
+  font-size: 17px;
+ }
+ #skills{
+  width: 500px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color:rgb(98, 34, 34);
+      border-radius: 5%;
+  font-size: 17px; }
+ #education{
+  width: 500px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color:rgb(98, 34, 34);
+      color: white;
+  
+ }
+ .footer{
+  background-color: rgb(71, 44, 44);
+
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 11px;
+  
+ }
+ .contact_me,#contact{
+  margin-top: 0;
+  background-color: rgb(71, 44, 44);
+ }
+
+ section {
+  padding: 20px;
+  margin: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(35, 6, 6, 0.1);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  color: white;
+}
+footer p{
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
